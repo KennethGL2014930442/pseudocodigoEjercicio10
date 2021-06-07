@@ -1,0 +1,19 @@
+Algoritmo Ejercicio10
+	multiplicar <- 0
+	acumuladorsuma <- 0
+	Mientras acumuladorsuma<1000 Hacer
+		Escribir 'Ingrese un numero: '
+		Leer num
+		acumuladorsuma <- acumuladorsuma+num
+		resta <- 1000-acumuladorsuma
+		Escribir 'Disponible ',resta
+		Si (num MOD 6=0) Entonces
+			multiplicar <- multiplicar+1
+		FinSi
+		Si (num>=1 Y num<=10) Entonces
+			sumab <- sumab+num
+		FinSi
+	FinMientras
+	Escribir 'a) La cantidad de numeros multiplos de 6 son: ',multiplicar
+	Escribir 'b) La suma entre 1 y 10 es: ',sumab
+FinAlgoritmo
